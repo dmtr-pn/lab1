@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактная информация</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="nav">
+            <a href="index.html" class="nav-logo">Резюме</a>
+            <i class='bx bx-menu bx-md nav-menu'></i>
+            <div class="nav-links">
+                <a href="edu.html" class="nav-links__item">
+                    Образование 
+                </a>
+                <a href="exp.html" class="nav-links__item">
+                    Опыт работы 
+                </a>
+                <a href="contact.html" class="nav-links__item">
+                    Контактная информация 
+                </a>
+            </div>
+        </div>
+
+        <div class="block  animate__animated animate__fadeInUp">
+            <form class="form">
+                <div class="f__item">
+                    <label for="name" class="f__item-name">ФИО</label>
+                    <input type="text" name="name" placeholder="Иванов Иван Иванович" class="f__item-input" required >
+                </div> 
+                <div class="f__item">
+                    <label for="tel" class="f__item-name">Телефон</label>
+                    <input type="text" name="tel" placeholder="+7 999 999 99 99" class="f__item-input" >
+                </div> 
+                <div class="f__item">
+                    <label for="em" class="f__item-name">Электронная почта</label>
+                    <input type="email" name="em" placeholder="smth@s.s" class="f__item-input" required >
+                </div> 
+                <div class="f__item">
+                    <label for="da" class="f__item-name">Дата рождения</label>
+                    <input type="date" name="da" class="f__item-input" >
+                </div> 
+                <div class="f__item">
+                    <label for="name" class="f__item-name">ФИО</label>
+                    <input type="text" name="name" placeholder="Иванов Иван Иванович" class="f__item-input" >
+                </div> 
+                <div class="f__item">
+                    <label for="name" class="f__item-name">Сообщение</label>
+                    <textarea class="m">Сообщение</textarea>
+                </div> 
+                <div class="f__item">
+                    <input type="submit" value="Отправить" class="btn">
+                </div> 
+            </form>
+        </div>
+
+    </div> 
+    
+</body>
+</html>
